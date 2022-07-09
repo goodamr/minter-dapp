@@ -51,8 +51,8 @@ const CHAIN = 'rinkeby'; // only rinkeby, polygon, or ethereum
 const CONTRACT_NAME = 'moora.xyz';
 const CONTRACT_SYMBOL = 'MOORA';
 const METADATA_UPDATABLE = true; // set to false if you don't want to allow metadata updates after minting
-const OWNER_ADDRESS = '0xB2ed82619c946023825Ed937d2ddce5B783f14F0';
-const TREASURY_ADDRESS = '0xB2ed82619c946023825Ed937d2ddce5B783f14F0';
+const OWNER_ADDRESS = "0xB2ed82619c946023825Ed937d2ddce5B783f14F0";
+const TREASURY_ADDRESS = "0xB2ed82619c946023825Ed937d2ddce5B783f14F0";
 const MAX_SUPPLY = 5000; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
 const MINT_PRICE = 0.001; // Minting price per NFT. Rinkeby = ETH, Ethereum = ETH, Polygon = MATIC. CANNOT BE UPDATED!
 const TOKENS_PER_MINT = 10; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
